@@ -2,14 +2,14 @@
                   yyyyy- -yyyyyy+      OS: %OS.NAME %OS.VERSION %OS.RELEASE
                ://+//////-yyyyyyo      Kernel: %OS.ARCH %OS.KERNEL
            .++ .:/++++++/-.+sss/`      Uptime: %UPTIME
-         .:++o:  /++++++++/:--:/-      Packages: 1177
+         .:++o:  /++++++++/:--:/-      Packages: %PACKAGES
         o:+o+:++.`..```.-/oo+++++/     Shell: %SHELL
        .:+o:+o/.          `+sssoo+/    Resolution: %RESOLUTION
-  .++/+:+oo+o:`             /sssooo.   DE: XFCE
- /+++//+:`oo+o               /::--:.   WM: Xfwm4
- \+/+o+++`o++o               ++////.   WM Theme: Numix
-  .++.o+++oo+:`             /dddhhh.   GTK Theme: Numix [GTK2]
-       .+.o+oo:.          `oddhhhh+    Icon Theme: elementary-xfce-darker
+  .++/+:+oo+o:`             /sssooo.   DE: %DE
+ /+++//+:`oo+o               /::--:.   WM: %WM
+ \+/+o+++`o++o               ++////.   WM Theme: %WM.THEME
+  .++.o+++oo+:`             /dddhhh.   GTK Theme: %GTK.THEME
+       .+.o+oo:.          `oddhhhh+    Icon Theme: %ICON.THEME
         \+.++o+o``-````.:ohdhhhhh+     Font: %FONT
          `:o+++ `ohhhhhhhhyo++os:      CPU: %CPUNAME
            .o:`.syhhhhhhh/.oo++o`      RAM: %RAM
